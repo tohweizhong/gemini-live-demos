@@ -7,10 +7,8 @@ import websockets
 import json
 import pyaudio
 
-
-# 需要先 gcloud auth print-access-token 获取 token
-# will be need to run this after each token expires
-BEARER_TOKEN = "<run gcloud auth print-access-token>"
+# needs to be rerun when token expires
+BEARER_TOKEN = "<gcloud auth print-access-token>"
 
 PROJECT_ID = "<project ID>"
 
